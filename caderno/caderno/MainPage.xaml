@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="caderno.MainPage">
+      <!-- Ao abrir o aplicativo essa é a primeira pagina que será mostrada ao usuario que possui 3 botões
+       empilhados pelo comando "<StackLayout>"-->
+    <StackLayout>
+        <!-- O comando "Button" gera os botões antes mencionados a prorpiedade "Text" serve para colocar
+        textos nos botões e a prorpiedade "Clicked" é a responsavel por "avisar" o app que vc clicou naquele
+        botão, eu renomeie o os botões para terem o mesmo nome de suas respectivas paginas-->
+        
+        <Button Text="Primeiro Ano" Clicked="PrimeiroAno_Clicked"/>
+        <Button Text="Segundo Ano" Clicked="SegundoAno_Clicked"/>
+        <Button Text="Terceiro Ano" Clicked="TerceiroAno_Clicked"/>
+    
+        
+    </StackLayout>
+
+</ContentPage>

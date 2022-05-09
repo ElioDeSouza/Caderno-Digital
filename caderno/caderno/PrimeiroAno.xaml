@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="caderno.PrimeiroAno">
+    <ContentPage.Content>
+     
+        <!-- Essa é a pagina de materias do primeiro ano ela possui um botão 
+        para cada uma das materia do primeiro ano com um "<Label Text="(que serve para acresentar
+        texto a pagina) que indica e separa quai são as materia padrões 
+        do enssino medio e quais são as materia do curso de DS, como a pagina possui muito conteudo
+        ela tambem possui o comando "<ScrollView>" que permite vc subir e decer na pagina assim permitindo
+        o usuario acesar todo conteudo da pagina-->
+        
+        <ScrollView>
+            <StackLayout>
+            <Label Text="Materias do ensino medio" />
+            <Button Text="LPL 1°" Clicked="LPL_Clicked" />
+            <Button Text="Matematica 1°" Clicked="Mat_Clicked" />
+            <Button Text="Historia 1°" Clicked="Hist_Clicked" />
+            <Button Text="Geografia 1°" Clicked="Geo_Clicked" />
+            <Button Text="Ed Fisica 1°" Clicked="EF_Clicked" /> 
+            <Button Text="Ingles 1°" Clicked="Ing_Clicked" />
+            <Button Text="Fisica 1°" Clicked="Fis_Clicked" />
+            <Button Text="Quimica 1°" Clicked="Qui_Clicked" />
+            <Button Text="Biologia 1°" Clicked="Bio_Clicked" />
+            <Button Text="Filosofia 1°" Clicked="Filo_Clicked"/>
+            <Button Text="Arte 1°" Clicked="Arte_Clicked" />
+
+            <Label Text="Materias do curso" />
+            <Button Text="Analise de projeto e sistema" Clicked="APS_Clicked" />
+            <Button Text="Desing" Clicked="Des_Clicked" />
+            <Button Text="Fundamentos da informatica" Clicked="FunInfo_Clicked" />
+            <Button Text="Programação na WEB I" Clicked="WEB_Clicked" />
+            <Button Text="Logiga e programação de algoritimo" Clicked="LPA_Clicked" />
+            <Button Text="Banco de Dados I" Clicked="BD_Clicked_5" />
+        </StackLayout>
+       </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
